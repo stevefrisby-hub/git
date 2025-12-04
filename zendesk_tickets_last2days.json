@@ -1,0 +1,1673 @@
+[
+{
+  "url": "https://kallidus.zendesk.com/api/v2/tickets/242705.json",
+  "id": 242705,
+  "external_id": null,
+  "via": {
+    "channel": "email",
+    "source": {
+      "from": {
+        "address": "kallidussupport@kallidus.com",
+        "name": "KallidusSupport"
+      },
+      "to": {
+        "name": "Kallidus Customer Support",
+        "address": "support@kallidus.zendesk.com"
+      },
+      "rel": null
+    }
+  },
+  "created_at": "2025-11-11T15:30:02Z",
+  "updated_at": "2025-11-11T15:30:02Z",
+  "generated_timestamp": 1762875002,
+  "type": null,
+  "subject": "Possible loop in Management hierarchy for LMS_northumbrian",
+  "raw_subject": "Possible loop in Management hierarchy for LMS_northumbrian",
+  "description": "Dear Customer, \r\n\r\nThere appears to be a loop in the Management hierarchy involving the following listed below. Please correct the structure if required.\r\n\r\nThe manager details for the managers of the listed groups have been blanked due to the potential loop.\r\n\r\nNotes: \r\nWhere the two GroupCodes are the same, the Manager is managing themselves.\r\nWhere the two GroupCodes are not the same, check for a loop so for example, User1 manages User2 and User2 manages User1, or User1 manages User2 who manages User3 who manages User1.\r\n\r\nRegards, \r\n\r\nKallidus Support\r\n\r\n\r\nChildGroupCode                                                                                                                                                                                           ParentGroupCode                                        \r\n                                                                                                                                                  LoopNo                                                                                                        \r\n                                                                                           LevelNo                                                                                                                                                              \r\n                                   \r\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------\r\n------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------\r\n------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n-----------------------------------\r\nLauren Halliburton (Lauren.Halliburton2@northumbri                                                                                                                                                       Alison Hogg (Alison.Hogg@northumbria-healthcare.nh     \r\n                                                                                                                                                  1                                                                                                             \r\n                                                                                           1                                                                                                                                                                    \r\n                                   \r\nAlison Hogg (Alison.Hogg@northumbria-healthcare.nh                                                                                                                                                       Lauren Halliburton (Lauren.Halliburton2@northumbri     \r\n                                                                                                                                                  1                                                                                                             \r\n                                                                                           2                                                                                                                                                                    \r\n                                   \r\nAlison Hogg (Alison.Hogg@northumbria-healthcare.nh                                                                                                                                                       Lauren Halliburton (Lauren.Halliburton2@northumbri     \r\n                                                                                                                                                  2                                                                                                             \r\n                                                                                           1                                                                                                                                                                    \r\n                                   \r\nLauren Halliburton (Lauren.Halliburton2@northumbri                                                                                                                                                       Alison Hogg (Alison.Hogg@northumbria-healthcare.nh     \r\n                                                                                                                                                  2                                                                                                             \r\n                                                                                           2                                                                                                                                                                    \r\n                                   \r\n\r\n(4 rows affected)",
+  "priority": "low",
+  "status": "closed",
+  "recipient": "support@kallidus.zendesk.com",
+  "requester_id": 373758479378,
+  "submitter_id": 373758479378,
+  "assignee_id": null,
+  "organization_id": 4628013825,
+  "group_id": null,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "forum_topic_id": null,
+  "problem_id": null,
+  "has_incidents": false,
+  "is_public": true,
+  "due_at": null,
+  "tags": [
+    "360_customer",
+    "classic_customer",
+    "customer_update",
+    "email_requester_notified",
+    "kallidus",
+    "learn_customer",
+    "perform_customer",
+    "performance_customer",
+    "recruit_customer",
+    "talent_customer",
+    "ticket_channel_email",
+    "ticket_type_request"
+  ],
+  "custom_fields": [
+    {
+      "id": 30550889,
+      "value": null
+    },
+    {
+      "id": 30550909,
+      "value": null
+    },
+    {
+      "id": 30682805,
+      "value": false
+    },
+    {
+      "id": 30826445,
+      "value": null
+    },
+    {
+      "id": 30945045,
+      "value": null
+    },
+    {
+      "id": 35786469,
+      "value": null
+    },
+    {
+      "id": 35788189,
+      "value": null
+    },
+    {
+      "id": 36266829,
+      "value": null
+    },
+    {
+      "id": 36267289,
+      "value": null
+    },
+    {
+      "id": 36267309,
+      "value": null
+    },
+    {
+      "id": 36267329,
+      "value": null
+    },
+    {
+      "id": 36267369,
+      "value": null
+    },
+    {
+      "id": 36288189,
+      "value": "ticket_type_request"
+    },
+    {
+      "id": 36361965,
+      "value": null
+    },
+    {
+      "id": 36362265,
+      "value": null
+    },
+    {
+      "id": 36362285,
+      "value": null
+    },
+    {
+      "id": 36362305,
+      "value": null
+    },
+    {
+      "id": 36362325,
+      "value": null
+    },
+    {
+      "id": 36362345,
+      "value": null
+    },
+    {
+      "id": 36362365,
+      "value": null
+    },
+    {
+      "id": 36494569,
+      "value": null
+    },
+    {
+      "id": 36842209,
+      "value": null
+    },
+    {
+      "id": 37167205,
+      "value": null
+    },
+    {
+      "id": 37168785,
+      "value": null
+    },
+    {
+      "id": 38239265,
+      "value": "ticket_channel_email"
+    },
+    {
+      "id": 39054045,
+      "value": null
+    },
+    {
+      "id": 39666469,
+      "value": false
+    },
+    {
+      "id": 40692249,
+      "value": null
+    },
+    {
+      "id": 40824485,
+      "value": null
+    },
+    {
+      "id": 40838225,
+      "value": false
+    },
+    {
+      "id": 41615665,
+      "value": null
+    },
+    {
+      "id": 42444485,
+      "value": null
+    },
+    {
+      "id": 42451305,
+      "value": null
+    },
+    {
+      "id": 45294509,
+      "value": null
+    },
+    {
+      "id": 45363325,
+      "value": null
+    },
+    {
+      "id": 45388465,
+      "value": null
+    },
+    {
+      "id": 45414429,
+      "value": null
+    },
+    {
+      "id": 45440989,
+      "value": null
+    },
+    {
+      "id": 45443929,
+      "value": false
+    },
+    {
+      "id": 45487705,
+      "value": null
+    },
+    {
+      "id": 114102742374,
+      "value": false
+    },
+    {
+      "id": 360000315414,
+      "value": null
+    },
+    {
+      "id": 360001602653,
+      "value": null
+    },
+    {
+      "id": 360002866893,
+      "value": null
+    },
+    {
+      "id": 360002866913,
+      "value": null
+    },
+    {
+      "id": 360002889714,
+      "value": null
+    },
+    {
+      "id": 360003460057,
+      "value": false
+    },
+    {
+      "id": 360009602018,
+      "value": null
+    },
+    {
+      "id": 360010662717,
+      "value": false
+    },
+    {
+      "id": 360019906913,
+      "value": false
+    },
+    {
+      "id": 360025708377,
+      "value": false
+    },
+    {
+      "id": 1900004792853,
+      "value": false
+    },
+    {
+      "id": 4450531022353,
+      "value": null
+    },
+    {
+      "id": 4450602796049,
+      "value": null
+    },
+    {
+      "id": 4450608087185,
+      "value": null
+    },
+    {
+      "id": 4450608569617,
+      "value": null
+    },
+    {
+      "id": 4450614299025,
+      "value": null
+    },
+    {
+      "id": 4450623124241,
+      "value": null
+    },
+    {
+      "id": 4450648124945,
+      "value": false
+    },
+    {
+      "id": 4450661451153,
+      "value": null
+    },
+    {
+      "id": 4450663671313,
+      "value": null
+    },
+    {
+      "id": 4450677558545,
+      "value": null
+    },
+    {
+      "id": 4450726462737,
+      "value": null
+    },
+    {
+      "id": 4450732323985,
+      "value": null
+    },
+    {
+      "id": 4450732866321,
+      "value": null
+    },
+    {
+      "id": 4450746132241,
+      "value": null
+    },
+    {
+      "id": 4450756388497,
+      "value": null
+    },
+    {
+      "id": 4450770024849,
+      "value": null
+    },
+    {
+      "id": 4450785875089,
+      "value": null
+    },
+    {
+      "id": 6987565437201,
+      "value": false
+    },
+    {
+      "id": 9120164659089,
+      "value": null
+    },
+    {
+      "id": 9120242997649,
+      "value": null
+    },
+    {
+      "id": 9120264187793,
+      "value": null
+    },
+    {
+      "id": 9814611502481,
+      "value": false
+    },
+    {
+      "id": 24078789405201,
+      "value": null
+    },
+    {
+      "id": 24216701880977,
+      "value": null
+    },
+    {
+      "id": 32730463081745,
+      "value": null
+    },
+    {
+      "id": 32730463094289,
+      "value": null
+    },
+    {
+      "id": 32730487568273,
+      "value": null
+    },
+    {
+      "id": 32730487593745,
+      "value": null
+    },
+    {
+      "id": 32730487632785,
+      "value": null
+    },
+    {
+      "id": 32730487644561,
+      "value": null
+    },
+    {
+      "id": 35204282790161,
+      "value": false
+    },
+    {
+      "id": 37226020764689,
+      "value": null
+    },
+    {
+      "id": 39167513131025,
+      "value": null
+    },
+    {
+      "id": 39616567992465,
+      "value": null
+    },
+    {
+      "id": 39616567993361,
+      "value": null
+    },
+    {
+      "id": 39616570807697,
+      "value": null
+    },
+    {
+      "id": 39616570808081,
+      "value": null
+    },
+    {
+      "id": 40653294932113,
+      "value": null
+    }
+  ],
+  "satisfaction_rating": {
+    "score": "unoffered"
+  },
+  "sharing_agreement_ids": [],
+  "custom_status_id": 5063698,
+  "encoded_id": "40E454-V50KW",
+  "fields": [
+    {
+      "id": 30550889,
+      "value": null
+    },
+    {
+      "id": 30550909,
+      "value": null
+    },
+    {
+      "id": 30682805,
+      "value": false
+    },
+    {
+      "id": 30826445,
+      "value": null
+    },
+    {
+      "id": 30945045,
+      "value": null
+    },
+    {
+      "id": 35786469,
+      "value": null
+    },
+    {
+      "id": 35788189,
+      "value": null
+    },
+    {
+      "id": 36266829,
+      "value": null
+    },
+    {
+      "id": 36267289,
+      "value": null
+    },
+    {
+      "id": 36267309,
+      "value": null
+    },
+    {
+      "id": 36267329,
+      "value": null
+    },
+    {
+      "id": 36267369,
+      "value": null
+    },
+    {
+      "id": 36288189,
+      "value": "ticket_type_request"
+    },
+    {
+      "id": 36361965,
+      "value": null
+    },
+    {
+      "id": 36362265,
+      "value": null
+    },
+    {
+      "id": 36362285,
+      "value": null
+    },
+    {
+      "id": 36362305,
+      "value": null
+    },
+    {
+      "id": 36362325,
+      "value": null
+    },
+    {
+      "id": 36362345,
+      "value": null
+    },
+    {
+      "id": 36362365,
+      "value": null
+    },
+    {
+      "id": 36494569,
+      "value": null
+    },
+    {
+      "id": 36842209,
+      "value": null
+    },
+    {
+      "id": 37167205,
+      "value": null
+    },
+    {
+      "id": 37168785,
+      "value": null
+    },
+    {
+      "id": 38239265,
+      "value": "ticket_channel_email"
+    },
+    {
+      "id": 39054045,
+      "value": null
+    },
+    {
+      "id": 39666469,
+      "value": false
+    },
+    {
+      "id": 40692249,
+      "value": null
+    },
+    {
+      "id": 40824485,
+      "value": null
+    },
+    {
+      "id": 40838225,
+      "value": false
+    },
+    {
+      "id": 41615665,
+      "value": null
+    },
+    {
+      "id": 42444485,
+      "value": null
+    },
+    {
+      "id": 42451305,
+      "value": null
+    },
+    {
+      "id": 45294509,
+      "value": null
+    },
+    {
+      "id": 45363325,
+      "value": null
+    },
+    {
+      "id": 45388465,
+      "value": null
+    },
+    {
+      "id": 45414429,
+      "value": null
+    },
+    {
+      "id": 45440989,
+      "value": null
+    },
+    {
+      "id": 45443929,
+      "value": false
+    },
+    {
+      "id": 45487705,
+      "value": null
+    },
+    {
+      "id": 114102742374,
+      "value": false
+    },
+    {
+      "id": 360000315414,
+      "value": null
+    },
+    {
+      "id": 360001602653,
+      "value": null
+    },
+    {
+      "id": 360002866893,
+      "value": null
+    },
+    {
+      "id": 360002866913,
+      "value": null
+    },
+    {
+      "id": 360002889714,
+      "value": null
+    },
+    {
+      "id": 360003460057,
+      "value": false
+    },
+    {
+      "id": 360009602018,
+      "value": null
+    },
+    {
+      "id": 360010662717,
+      "value": false
+    },
+    {
+      "id": 360019906913,
+      "value": false
+    },
+    {
+      "id": 360025708377,
+      "value": false
+    },
+    {
+      "id": 1900004792853,
+      "value": false
+    },
+    {
+      "id": 4450531022353,
+      "value": null
+    },
+    {
+      "id": 4450602796049,
+      "value": null
+    },
+    {
+      "id": 4450608087185,
+      "value": null
+    },
+    {
+      "id": 4450608569617,
+      "value": null
+    },
+    {
+      "id": 4450614299025,
+      "value": null
+    },
+    {
+      "id": 4450623124241,
+      "value": null
+    },
+    {
+      "id": 4450648124945,
+      "value": false
+    },
+    {
+      "id": 4450661451153,
+      "value": null
+    },
+    {
+      "id": 4450663671313,
+      "value": null
+    },
+    {
+      "id": 4450677558545,
+      "value": null
+    },
+    {
+      "id": 4450726462737,
+      "value": null
+    },
+    {
+      "id": 4450732323985,
+      "value": null
+    },
+    {
+      "id": 4450732866321,
+      "value": null
+    },
+    {
+      "id": 4450746132241,
+      "value": null
+    },
+    {
+      "id": 4450756388497,
+      "value": null
+    },
+    {
+      "id": 4450770024849,
+      "value": null
+    },
+    {
+      "id": 4450785875089,
+      "value": null
+    },
+    {
+      "id": 6987565437201,
+      "value": false
+    },
+    {
+      "id": 9120164659089,
+      "value": null
+    },
+    {
+      "id": 9120242997649,
+      "value": null
+    },
+    {
+      "id": 9120264187793,
+      "value": null
+    },
+    {
+      "id": 9814611502481,
+      "value": false
+    },
+    {
+      "id": 24078789405201,
+      "value": null
+    },
+    {
+      "id": 24216701880977,
+      "value": null
+    },
+    {
+      "id": 32730463081745,
+      "value": null
+    },
+    {
+      "id": 32730463094289,
+      "value": null
+    },
+    {
+      "id": 32730487568273,
+      "value": null
+    },
+    {
+      "id": 32730487593745,
+      "value": null
+    },
+    {
+      "id": 32730487632785,
+      "value": null
+    },
+    {
+      "id": 32730487644561,
+      "value": null
+    },
+    {
+      "id": 35204282790161,
+      "value": false
+    },
+    {
+      "id": 37226020764689,
+      "value": null
+    },
+    {
+      "id": 39167513131025,
+      "value": null
+    },
+    {
+      "id": 39616567992465,
+      "value": null
+    },
+    {
+      "id": 39616567993361,
+      "value": null
+    },
+    {
+      "id": 39616570807697,
+      "value": null
+    },
+    {
+      "id": 39616570808081,
+      "value": null
+    },
+    {
+      "id": 40653294932113,
+      "value": null
+    }
+  ],
+  "followup_ids": [],
+  "ticket_form_id": 148325,
+  "brand_id": 1102285,
+  "metric_set": {
+    "url": "https://kallidus.zendesk.com/api/v2/ticket_metrics/40828214895249.json",
+    "id": 40828214895249,
+    "ticket_id": 242705,
+    "created_at": "2025-11-11T15:30:02Z",
+    "updated_at": "2025-11-11T15:30:02Z",
+    "group_stations": 0,
+    "assignee_stations": 0,
+    "reopens": 0,
+    "replies": 0,
+    "assignee_updated_at": null,
+    "requester_updated_at": "2025-11-11T15:30:02Z",
+    "status_updated_at": "2025-11-11T15:30:02Z",
+    "initially_assigned_at": null,
+    "assigned_at": null,
+    "solved_at": "2025-11-11T15:30:02Z",
+    "latest_comment_added_at": "2025-11-11T15:30:02Z",
+    "reply_time_in_minutes": {
+      "calendar": null,
+      "business": null
+    },
+    "first_resolution_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "full_resolution_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "agent_wait_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "requester_wait_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "on_hold_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    }
+  },
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "from_messaging_channel": false,
+  "support_type": "agent"
+}
+,
+{
+  "url": "https://kallidus.zendesk.com/api/v2/tickets/242709.json",
+  "id": 242709,
+  "external_id": null,
+  "via": {
+    "channel": "email",
+    "source": {
+      "from": {
+        "address": "kallidussupport@kallidus.com",
+        "name": "KallidusSupport"
+      },
+      "to": {
+        "name": "Kallidus Customer Support",
+        "address": "support@kallidus.zendesk.com"
+      },
+      "rel": null
+    }
+  },
+  "created_at": "2025-11-11T16:00:03Z",
+  "updated_at": "2025-11-11T16:00:03Z",
+  "generated_timestamp": 1762876803,
+  "type": null,
+  "subject": "Possible loop in Management hierarchy for LMS_northumbrian",
+  "raw_subject": "Possible loop in Management hierarchy for LMS_northumbrian",
+  "description": "Dear Customer, \r\n\r\nThere appears to be a loop in the Management hierarchy involving the following listed below. Please correct the structure if required.\r\n\r\nThe manager details for the managers of the listed groups have been blanked due to the potential loop.\r\n\r\nNotes: \r\nWhere the two GroupCodes are the same, the Manager is managing themselves.\r\nWhere the two GroupCodes are not the same, check for a loop so for example, User1 manages User2 and User2 manages User1, or User1 manages User2 who manages User3 who manages User1.\r\n\r\nRegards, \r\n\r\nKallidus Support\r\n\r\n\r\nChildGroupCode                                                                                                                                                                                           ParentGroupCode                                        \r\n                                                                                                                                                  LoopNo                                                                                                        \r\n                                                                                           LevelNo                                                                                                                                                              \r\n                                   \r\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------\r\n------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------\r\n------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\n-----------------------------------\r\nLauren Halliburton (Lauren.Halliburton2@northumbri                                                                                                                                                       Alison Hogg (Alison.Hogg@northumbria-healthcare.nh     \r\n                                                                                                                                                  1                                                                                                             \r\n                                                                                           1                                                                                                                                                                    \r\n                                   \r\nAlison Hogg (Alison.Hogg@northumbria-healthcare.nh                                                                                                                                                       Lauren Halliburton (Lauren.Halliburton2@northumbri     \r\n                                                                                                                                                  1                                                                                                             \r\n                                                                                           2                                                                                                                                                                    \r\n                                   \r\nAlison Hogg (Alison.Hogg@northumbria-healthcare.nh                                                                                                                                                       Lauren Halliburton (Lauren.Halliburton2@northumbri     \r\n                                                                                                                                                  2                                                                                                             \r\n                                                                                           1                                                                                                                                                                    \r\n                                   \r\nLauren Halliburton (Lauren.Halliburton2@northumbri                                                                                                                                                       Alison Hogg (Alison.Hogg@northumbria-healthcare.nh     \r\n                                                                                                                                                  2                                                                                                             \r\n                                                                                           2                                                                                                                                                                    \r\n                                   \r\n\r\n(4 rows affected)",
+  "priority": "low",
+  "status": "closed",
+  "recipient": "support@kallidus.zendesk.com",
+  "requester_id": 373758479378,
+  "submitter_id": 373758479378,
+  "assignee_id": null,
+  "organization_id": 4628013825,
+  "group_id": null,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "forum_topic_id": null,
+  "problem_id": null,
+  "has_incidents": false,
+  "is_public": true,
+  "due_at": null,
+  "tags": [
+    "360_customer",
+    "classic_customer",
+    "customer_update",
+    "email_requester_notified",
+    "kallidus",
+    "learn_customer",
+    "perform_customer",
+    "performance_customer",
+    "recruit_customer",
+    "talent_customer",
+    "ticket_channel_email",
+    "ticket_type_request"
+  ],
+  "custom_fields": [
+    {
+      "id": 30550889,
+      "value": null
+    },
+    {
+      "id": 30550909,
+      "value": null
+    },
+    {
+      "id": 30682805,
+      "value": false
+    },
+    {
+      "id": 30826445,
+      "value": null
+    },
+    {
+      "id": 30945045,
+      "value": null
+    },
+    {
+      "id": 35786469,
+      "value": null
+    },
+    {
+      "id": 35788189,
+      "value": null
+    },
+    {
+      "id": 36266829,
+      "value": null
+    },
+    {
+      "id": 36267289,
+      "value": null
+    },
+    {
+      "id": 36267309,
+      "value": null
+    },
+    {
+      "id": 36267329,
+      "value": null
+    },
+    {
+      "id": 36267369,
+      "value": null
+    },
+    {
+      "id": 36288189,
+      "value": "ticket_type_request"
+    },
+    {
+      "id": 36361965,
+      "value": null
+    },
+    {
+      "id": 36362265,
+      "value": null
+    },
+    {
+      "id": 36362285,
+      "value": null
+    },
+    {
+      "id": 36362305,
+      "value": null
+    },
+    {
+      "id": 36362325,
+      "value": null
+    },
+    {
+      "id": 36362345,
+      "value": null
+    },
+    {
+      "id": 36362365,
+      "value": null
+    },
+    {
+      "id": 36494569,
+      "value": null
+    },
+    {
+      "id": 36842209,
+      "value": null
+    },
+    {
+      "id": 37167205,
+      "value": null
+    },
+    {
+      "id": 37168785,
+      "value": null
+    },
+    {
+      "id": 38239265,
+      "value": "ticket_channel_email"
+    },
+    {
+      "id": 39054045,
+      "value": null
+    },
+    {
+      "id": 39666469,
+      "value": false
+    },
+    {
+      "id": 40692249,
+      "value": null
+    },
+    {
+      "id": 40824485,
+      "value": null
+    },
+    {
+      "id": 40838225,
+      "value": false
+    },
+    {
+      "id": 41615665,
+      "value": null
+    },
+    {
+      "id": 42444485,
+      "value": null
+    },
+    {
+      "id": 42451305,
+      "value": null
+    },
+    {
+      "id": 45294509,
+      "value": null
+    },
+    {
+      "id": 45363325,
+      "value": null
+    },
+    {
+      "id": 45388465,
+      "value": null
+    },
+    {
+      "id": 45414429,
+      "value": null
+    },
+    {
+      "id": 45440989,
+      "value": null
+    },
+    {
+      "id": 45443929,
+      "value": false
+    },
+    {
+      "id": 45487705,
+      "value": null
+    },
+    {
+      "id": 114102742374,
+      "value": false
+    },
+    {
+      "id": 360000315414,
+      "value": null
+    },
+    {
+      "id": 360001602653,
+      "value": null
+    },
+    {
+      "id": 360002866893,
+      "value": null
+    },
+    {
+      "id": 360002866913,
+      "value": null
+    },
+    {
+      "id": 360002889714,
+      "value": null
+    },
+    {
+      "id": 360003460057,
+      "value": false
+    },
+    {
+      "id": 360009602018,
+      "value": null
+    },
+    {
+      "id": 360010662717,
+      "value": false
+    },
+    {
+      "id": 360019906913,
+      "value": false
+    },
+    {
+      "id": 360025708377,
+      "value": false
+    },
+    {
+      "id": 1900004792853,
+      "value": false
+    },
+    {
+      "id": 4450531022353,
+      "value": null
+    },
+    {
+      "id": 4450602796049,
+      "value": null
+    },
+    {
+      "id": 4450608087185,
+      "value": null
+    },
+    {
+      "id": 4450608569617,
+      "value": null
+    },
+    {
+      "id": 4450614299025,
+      "value": null
+    },
+    {
+      "id": 4450623124241,
+      "value": null
+    },
+    {
+      "id": 4450648124945,
+      "value": false
+    },
+    {
+      "id": 4450661451153,
+      "value": null
+    },
+    {
+      "id": 4450663671313,
+      "value": null
+    },
+    {
+      "id": 4450677558545,
+      "value": null
+    },
+    {
+      "id": 4450726462737,
+      "value": null
+    },
+    {
+      "id": 4450732323985,
+      "value": null
+    },
+    {
+      "id": 4450732866321,
+      "value": null
+    },
+    {
+      "id": 4450746132241,
+      "value": null
+    },
+    {
+      "id": 4450756388497,
+      "value": null
+    },
+    {
+      "id": 4450770024849,
+      "value": null
+    },
+    {
+      "id": 4450785875089,
+      "value": null
+    },
+    {
+      "id": 6987565437201,
+      "value": false
+    },
+    {
+      "id": 9120164659089,
+      "value": null
+    },
+    {
+      "id": 9120242997649,
+      "value": null
+    },
+    {
+      "id": 9120264187793,
+      "value": null
+    },
+    {
+      "id": 9814611502481,
+      "value": false
+    },
+    {
+      "id": 24078789405201,
+      "value": null
+    },
+    {
+      "id": 24216701880977,
+      "value": null
+    },
+    {
+      "id": 32730463081745,
+      "value": null
+    },
+    {
+      "id": 32730463094289,
+      "value": null
+    },
+    {
+      "id": 32730487568273,
+      "value": null
+    },
+    {
+      "id": 32730487593745,
+      "value": null
+    },
+    {
+      "id": 32730487632785,
+      "value": null
+    },
+    {
+      "id": 32730487644561,
+      "value": null
+    },
+    {
+      "id": 35204282790161,
+      "value": false
+    },
+    {
+      "id": 37226020764689,
+      "value": null
+    },
+    {
+      "id": 39167513131025,
+      "value": null
+    },
+    {
+      "id": 39616567992465,
+      "value": null
+    },
+    {
+      "id": 39616567993361,
+      "value": null
+    },
+    {
+      "id": 39616570807697,
+      "value": null
+    },
+    {
+      "id": 39616570808081,
+      "value": null
+    },
+    {
+      "id": 40653294932113,
+      "value": null
+    }
+  ],
+  "satisfaction_rating": {
+    "score": "unoffered"
+  },
+  "sharing_agreement_ids": [],
+  "custom_status_id": 5063698,
+  "encoded_id": "96ZYRY-M269L",
+  "fields": [
+    {
+      "id": 30550889,
+      "value": null
+    },
+    {
+      "id": 30550909,
+      "value": null
+    },
+    {
+      "id": 30682805,
+      "value": false
+    },
+    {
+      "id": 30826445,
+      "value": null
+    },
+    {
+      "id": 30945045,
+      "value": null
+    },
+    {
+      "id": 35786469,
+      "value": null
+    },
+    {
+      "id": 35788189,
+      "value": null
+    },
+    {
+      "id": 36266829,
+      "value": null
+    },
+    {
+      "id": 36267289,
+      "value": null
+    },
+    {
+      "id": 36267309,
+      "value": null
+    },
+    {
+      "id": 36267329,
+      "value": null
+    },
+    {
+      "id": 36267369,
+      "value": null
+    },
+    {
+      "id": 36288189,
+      "value": "ticket_type_request"
+    },
+    {
+      "id": 36361965,
+      "value": null
+    },
+    {
+      "id": 36362265,
+      "value": null
+    },
+    {
+      "id": 36362285,
+      "value": null
+    },
+    {
+      "id": 36362305,
+      "value": null
+    },
+    {
+      "id": 36362325,
+      "value": null
+    },
+    {
+      "id": 36362345,
+      "value": null
+    },
+    {
+      "id": 36362365,
+      "value": null
+    },
+    {
+      "id": 36494569,
+      "value": null
+    },
+    {
+      "id": 36842209,
+      "value": null
+    },
+    {
+      "id": 37167205,
+      "value": null
+    },
+    {
+      "id": 37168785,
+      "value": null
+    },
+    {
+      "id": 38239265,
+      "value": "ticket_channel_email"
+    },
+    {
+      "id": 39054045,
+      "value": null
+    },
+    {
+      "id": 39666469,
+      "value": false
+    },
+    {
+      "id": 40692249,
+      "value": null
+    },
+    {
+      "id": 40824485,
+      "value": null
+    },
+    {
+      "id": 40838225,
+      "value": false
+    },
+    {
+      "id": 41615665,
+      "value": null
+    },
+    {
+      "id": 42444485,
+      "value": null
+    },
+    {
+      "id": 42451305,
+      "value": null
+    },
+    {
+      "id": 45294509,
+      "value": null
+    },
+    {
+      "id": 45363325,
+      "value": null
+    },
+    {
+      "id": 45388465,
+      "value": null
+    },
+    {
+      "id": 45414429,
+      "value": null
+    },
+    {
+      "id": 45440989,
+      "value": null
+    },
+    {
+      "id": 45443929,
+      "value": false
+    },
+    {
+      "id": 45487705,
+      "value": null
+    },
+    {
+      "id": 114102742374,
+      "value": false
+    },
+    {
+      "id": 360000315414,
+      "value": null
+    },
+    {
+      "id": 360001602653,
+      "value": null
+    },
+    {
+      "id": 360002866893,
+      "value": null
+    },
+    {
+      "id": 360002866913,
+      "value": null
+    },
+    {
+      "id": 360002889714,
+      "value": null
+    },
+    {
+      "id": 360003460057,
+      "value": false
+    },
+    {
+      "id": 360009602018,
+      "value": null
+    },
+    {
+      "id": 360010662717,
+      "value": false
+    },
+    {
+      "id": 360019906913,
+      "value": false
+    },
+    {
+      "id": 360025708377,
+      "value": false
+    },
+    {
+      "id": 1900004792853,
+      "value": false
+    },
+    {
+      "id": 4450531022353,
+      "value": null
+    },
+    {
+      "id": 4450602796049,
+      "value": null
+    },
+    {
+      "id": 4450608087185,
+      "value": null
+    },
+    {
+      "id": 4450608569617,
+      "value": null
+    },
+    {
+      "id": 4450614299025,
+      "value": null
+    },
+    {
+      "id": 4450623124241,
+      "value": null
+    },
+    {
+      "id": 4450648124945,
+      "value": false
+    },
+    {
+      "id": 4450661451153,
+      "value": null
+    },
+    {
+      "id": 4450663671313,
+      "value": null
+    },
+    {
+      "id": 4450677558545,
+      "value": null
+    },
+    {
+      "id": 4450726462737,
+      "value": null
+    },
+    {
+      "id": 4450732323985,
+      "value": null
+    },
+    {
+      "id": 4450732866321,
+      "value": null
+    },
+    {
+      "id": 4450746132241,
+      "value": null
+    },
+    {
+      "id": 4450756388497,
+      "value": null
+    },
+    {
+      "id": 4450770024849,
+      "value": null
+    },
+    {
+      "id": 4450785875089,
+      "value": null
+    },
+    {
+      "id": 6987565437201,
+      "value": false
+    },
+    {
+      "id": 9120164659089,
+      "value": null
+    },
+    {
+      "id": 9120242997649,
+      "value": null
+    },
+    {
+      "id": 9120264187793,
+      "value": null
+    },
+    {
+      "id": 9814611502481,
+      "value": false
+    },
+    {
+      "id": 24078789405201,
+      "value": null
+    },
+    {
+      "id": 24216701880977,
+      "value": null
+    },
+    {
+      "id": 32730463081745,
+      "value": null
+    },
+    {
+      "id": 32730463094289,
+      "value": null
+    },
+    {
+      "id": 32730487568273,
+      "value": null
+    },
+    {
+      "id": 32730487593745,
+      "value": null
+    },
+    {
+      "id": 32730487632785,
+      "value": null
+    },
+    {
+      "id": 32730487644561,
+      "value": null
+    },
+    {
+      "id": 35204282790161,
+      "value": false
+    },
+    {
+      "id": 37226020764689,
+      "value": null
+    },
+    {
+      "id": 39167513131025,
+      "value": null
+    },
+    {
+      "id": 39616567992465,
+      "value": null
+    },
+    {
+      "id": 39616567993361,
+      "value": null
+    },
+    {
+      "id": 39616570807697,
+      "value": null
+    },
+    {
+      "id": 39616570808081,
+      "value": null
+    },
+    {
+      "id": 40653294932113,
+      "value": null
+    }
+  ],
+  "followup_ids": [],
+  "ticket_form_id": 148325,
+  "brand_id": 1102285,
+  "metric_set": {
+    "url": "https://kallidus.zendesk.com/api/v2/ticket_metrics/40829150243217.json",
+    "id": 40829150243217,
+    "ticket_id": 242709,
+    "created_at": "2025-11-11T16:00:03Z",
+    "updated_at": "2025-11-11T16:00:03Z",
+    "group_stations": 0,
+    "assignee_stations": 0,
+    "reopens": 0,
+    "replies": 0,
+    "assignee_updated_at": null,
+    "requester_updated_at": "2025-11-11T16:00:03Z",
+    "status_updated_at": "2025-11-11T16:00:03Z",
+    "initially_assigned_at": null,
+    "assigned_at": null,
+    "solved_at": "2025-11-11T16:00:03Z",
+    "latest_comment_added_at": "2025-11-11T16:00:03Z",
+    "reply_time_in_minutes": {
+      "calendar": null,
+      "business": null
+    },
+    "first_resolution_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "full_resolution_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "agent_wait_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "requester_wait_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    },
+    "on_hold_time_in_minutes": {
+      "calendar": 0,
+      "business": 0
+    }
+  },
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "from_messaging_channel": false,
+  "support_type": "agent"
+}
+]
